@@ -59,6 +59,7 @@ export default function Home({ location }) {
                     <Route path="/home/about-us" component={AboutUs} />
                     <Route path="/home/portfolio" component={Portfolio} />
                 </Switch>
+
             </div>
         </Container>
     );
