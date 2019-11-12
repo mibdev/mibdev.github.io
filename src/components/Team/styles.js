@@ -15,6 +15,9 @@ export const Container = styled.div`
     }
 
     &>ul>li>.content {
+        cursor: pointer;
+        text-decoration: none;
+
         display: flex;
         flex-direction: column;
         
@@ -27,8 +30,18 @@ export const Container = styled.div`
             }
         }
     }
+    
+    /* alinhamento para o FadeIn component */
+    &>ul>li>.content div {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+    }
 
-    &>ul>li>.content>img {
+    &>ul>li>.content img {
+      
         width: 150px;    
         height: 150px;
 
@@ -36,7 +49,7 @@ export const Container = styled.div`
         filter: grayscale(100%) brightness(0.5);
     }
 
-     &>ul>li>.content>h3 {
+     &>ul>li>.content h3 {
         margin-top: 10px;
 
         font-weight: 100;

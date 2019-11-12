@@ -11,7 +11,8 @@ export default function App() {
         <Container>
             <BrowserRouter>
                 <Switch>
-                    <Route path={["/", "/home"]} component={Home} />
+                    <Route path="/" exact component={Home} />
+                    <Route path="/home" component={Home} />
                     <Route path="/about" component={About} />
                 </Switch>
             </BrowserRouter>

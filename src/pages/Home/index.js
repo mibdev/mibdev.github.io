@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
-import logo from '../../assets/mib_logo.svg';
+import darklogo from '../../assets/mib_logo_dark.svg';
 
 import AboutUs from '../../components/AboutUs';
 import Portfolio from '../../components/Portfolio';
@@ -31,7 +31,7 @@ export default function Home({ location }) {
     return (
         <Container headerMarginTop={marginTop}>
             <div className="logo-mask">
-                <img className="mib-logo" src={logo} alt="mib logo" />
+                <img className="mib-logo" src={darklogo} alt="mib logo" />
             </div>
             <div className="content">
                 <div className="header">

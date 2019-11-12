@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49bbfc4ab6f4521073ae87c477b89cb9",
+    "revision": "a94755c091ec781bfb47fc8ac705c09d",
     "url": "/index.html"
   },
   {
-    "revision": "1f7b7b5e22c5da6c6a32",
-    "url": "/static/js/2.ae7ae464.chunk.js"
+    "revision": "9d0fad0690c032a0f370",
+    "url": "/static/js/2.4751af6c.chunk.js"
   },
   {
-    "revision": "806ed0814f2ac18cb635",
-    "url": "/static/js/main.168ee6d5.chunk.js"
+    "revision": "a327e7895140488162b9",
+    "url": "/static/js/main.19ed8ead.chunk.js"
   },
   {
     "revision": "b7ea830f15ecdd980b46",
@@ -17,6 +17,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "073b4d5a9995ac23a945b3b0c6d99649",
-    "url": "/static/media/mib_logo.073b4d5a.svg"
+    "url": "/static/media/mib_logo_dark.073b4d5a.svg"
   }
 ]);
