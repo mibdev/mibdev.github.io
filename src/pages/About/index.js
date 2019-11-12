@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Container } from './styles';
 
 import caio from '../../members/caio';
+import samuel from '../../members/samuel';
+import bruno from '../../members/bruno';
 
 export default function About({ location }) {
 
@@ -11,7 +13,7 @@ export default function About({ location }) {
     useEffect(() => {
         if (location) {
             const path = location.pathname.toLowerCase();
-            if (path.includes("samu")) {
+            if (path.includes("samuel")) {
                 setMember(caio);
             }
             else if (path.includes("bruno")) {

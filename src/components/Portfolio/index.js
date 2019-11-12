@@ -10,7 +10,7 @@ export default function Portfolio() {
 
                 <li>
                     <FadeIn>
-                        <img src="/bruno.jpg" alt="bruno" />
+                        <img src="/bruno.jpg" alt="Bruno" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>
@@ -18,7 +18,7 @@ export default function Portfolio() {
                 </li>
                 <li>
                     <FadeIn>
-                        <img src="/samu.jpg" alt="samu" />
+                        <img src="/samuel.jpg" alt="Samuel" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                 </li>
                 <li>
                     <FadeIn>
-                        <img src="/caio.jpg" alt="caio" />
+                        <img src="/caio.jpg" alt="Caio" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>
@@ -34,7 +34,7 @@ export default function Portfolio() {
                 </li>
                 <li>
                     <FadeIn>
-                        <img src="/samu.jpg" alt="samu" />
+                        <img src="/samuel.jpg" alt="Samuel" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 </li>
                 <li>
                     <FadeIn>
-                        <img src="/caio.jpg" alt="caio" />
+                        <img src="/caio.jpg" alt="Caio" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>
@@ -50,7 +50,7 @@ export default function Portfolio() {
                 </li>
                 <li>
                     <FadeIn>
-                        <img src="/bruno.jpg" alt="bruno" />
+                        <img src="/bruno.jpg" alt="Bruno" />
                         <div className="content">
                             <h3>Some Random Project</h3>
                         </div>

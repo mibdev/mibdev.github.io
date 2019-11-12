@@ -12,8 +12,13 @@ export const Container = styled.div`
         justify-content: space-evenly;
 
         list-style: none;
-    }
 
+        &>li {
+            padding: 15px;
+            text-align: center;
+        }
+    }
+    
     &>ul>li>.content {
         cursor: pointer;
         text-decoration: none;
@@ -51,9 +56,10 @@ export const Container = styled.div`
 
      &>ul>li>.content h3 {
         margin-top: 10px;
-
+        max-width: 50%;
         font-weight: 100;
         font-family: 'Fira Code', monospace;
+        opacity: 80%;
     }
 
 `;

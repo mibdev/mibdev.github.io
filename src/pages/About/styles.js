@@ -38,7 +38,8 @@ export const Container = styled.div`
     &>.content>.left-content>h2 {
         font-weight: 200;
         font-family: 'Oswald', sans-serif;
-        
+
+        opacity: 80%;        
         letter-spacing: 0px;
         font-size: 2vw;
         text-transform: uppercase;
@@ -48,6 +49,7 @@ export const Container = styled.div`
         font-weight: 900;
         font-family: 'Fira Code', monospace;
 
+        opacity: 80%;
         letter-spacing: 1px;
         font-size: 2.25vw;
         white-space: nowrap;
@@ -73,6 +75,7 @@ export const Container = styled.div`
         font-weight: 200;
         font-family: 'Oswald', sans-serif;
         
+        opacity: 80%;
         text-transform: uppercase;
     }
 
@@ -86,6 +89,9 @@ export const Container = styled.div`
         
         font-size: 1.5vw;
         letter-spacing: 1px;
+        opacity: 80%;
+        
+        padding: 50px;
     }
 
     &>.content>.right-content>.mirrored-img {
