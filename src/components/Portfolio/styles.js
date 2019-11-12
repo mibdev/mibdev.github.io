@@ -22,26 +22,25 @@ export const Container = styled.div`
         &:hover {
             .content>h3 {
                 opacity: 0;
-                transition: all .5s ease-in-out;
             }
             
             img {
                 filter: grayscale(0%);
-                transition: all .5s ease-in-out;
             }
         }
     }
     
-    &>ul>li>img {
+    &>ul>li img {
         position: absolute;
         
         width: 150px;
         height: 150px;
         
+        transition: all .5s ease-in-out;
         filter: grayscale(100%) brightness(0.5);
     }
 
-    &>ul>li>.content {
+    &>ul>li .content {
         width: 100%;
         height: 100%;
 
@@ -51,13 +50,14 @@ export const Container = styled.div`
         justify-content: space-between;
     }
 
-    &>ul>li>.content>h3 {
+    &>ul>li .content>h3 {
         font-weight: 300;
         font-size: 1.5rem;
         font-family: 'Lato', sans-serif;
         max-width: 50%;
         padding: 10px;
         z-index: 1;
+        transition: all .5s ease-in-out;
     }
 
 `;

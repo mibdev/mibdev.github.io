@@ -1,0 +1,46 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+
+    margin: 64px 0;
+
+    &>ul {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: space-evenly;
+
+        list-style: none;
+    }
+
+    &>ul>li>.content {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            img {
+                filter: grayscale(0%);
+            }
+        }
+    }
+
+    &>ul>li>.content>img {
+        width: 150px;    
+        height: 150px;
+
+        transition: all .5s ease-in-out;
+        filter: grayscale(100%) brightness(0.5);
+    }
+
+     &>ul>li>.content>h3 {
+        margin-top: 10px;
+
+        font-weight: 100;
+        font-family: 'Fira Code', monospace;
+    }
+
+`;

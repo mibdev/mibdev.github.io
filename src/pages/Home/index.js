@@ -7,6 +7,7 @@ import logo from '../../assets/mib_logo.svg';
 
 import AboutUs from '../../components/AboutUs';
 import Portfolio from '../../components/Portfolio';
+import Team from '../../components/Team';
 
 export default function Home({ location }) {
 
@@ -58,6 +59,7 @@ export default function Home({ location }) {
                 <Switch>
                     <Route path="/home/about-us" component={AboutUs} />
                     <Route path="/home/portfolio" component={Portfolio} />
+                    <Route path="/home/team" component={Team} />
                 </Switch>
 
             </div>
