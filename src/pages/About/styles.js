@@ -158,11 +158,11 @@ export const Container = styled.div`
     }
 
     &>.content>.right-content .shadow-box {
-        box-shadow: -0.9vw 0.9vw 1px #222;
+        box-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.05);
     }
     
     &>.content>.right-content .shadow-text {
-        text-shadow: -0.9vw 0.9vw 1px #222;
+        text-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.05);
     }
 
 `;

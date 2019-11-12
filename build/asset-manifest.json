@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.a50111a8.chunk.js",
-    "main.js.map": "/static/js/main.a50111a8.chunk.js.map",
+    "main.js": "/static/js/main.e67e12e6.chunk.js",
+    "main.js.map": "/static/js/main.e67e12e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4250194.js",
     "runtime-main.js.map": "/static/js/runtime-main.b4250194.js.map",
     "static/js/2.7de06f37.chunk.js": "/static/js/2.7de06f37.chunk.js",
     "static/js/2.7de06f37.chunk.js.map": "/static/js/2.7de06f37.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.69834e3e1ae449dfeff515c180e7d49e.js": "/precache-manifest.69834e3e1ae449dfeff515c180e7d49e.js",
+    "precache-manifest.47033192082e746c21a90c4956f2c732.js": "/precache-manifest.47033192082e746c21a90c4956f2c732.js",
     "service-worker.js": "/service-worker.js",
     "static/media/mib_logo_dark.svg": "/static/media/mib_logo_dark.073b4d5a.svg",
     "static/media/poly.svg": "/static/media/poly.9e58fcac.svg"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.b4250194.js",
     "static/js/2.7de06f37.chunk.js",
-    "static/js/main.a50111a8.chunk.js"
+    "static/js/main.e67e12e6.chunk.js"
   ]
 }
