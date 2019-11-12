@@ -19,14 +19,19 @@ export const Container = styled.div`
         justify-content: space-between;
     }
 
+    &>.header {
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+
     &>.content>.left-content {
         width: 40%;
-        margin-top: 100px;
+        margin-top: 25px;
     }
 
     &>.content>.right-content {
         width: 40%;
-        margin-top: 100px;
 
         display: flex;
         flex-direction: column;
@@ -95,8 +100,8 @@ export const Container = styled.div`
     }
 
     &>.content>.right-content>.mirrored-img {
-        width: 25vw;
-        height: 25vw;
+        width: 23vw;
+        height: 23vw;
         
         border: 1px solid #fff;
         transform: translate(25px, 25px);
@@ -108,8 +113,8 @@ export const Container = styled.div`
         transform: translate(0, 0);
     }
 
-    &>.content>.right-content>.mirrored-img>.avatar {
-        width: 25vw;
+    &>.content>.right-content>.mirrored-img .avatar {
+        width: 23vw;
         height: auto;
         
         filter: grayscale(100%);
@@ -118,9 +123,46 @@ export const Container = styled.div`
         transition: all 0.2s ease-in-out;
     }
 
-    &>.content>.right-content>.mirrored-img>.avatar:hover {
+    &>.content>.right-content>.mirrored-img .avatar:hover {
         filter: grayscale(0%);
         transform: translate(0, 0);
+    }
+
+    &>.content>.right-content>h3 {
+        margin-top: 3vw;
+        font-size: 1.25vw;
+        font-weight: 100;
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    &>.content>.right-content>.citation-content {
+        margin-top: 2vw;
+
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    &>.content>.right-content>.citation-content>hr {
+        width: 4vw;
+    }
+    
+    &>.content>.right-content>.citation-content>h4 {
+        margin-left: 2vw;
+        width: 50%;
+        font-weight: 100;
+        font-size: 1.75vw;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    &>.content>.right-content .shadow-box {
+        box-shadow: -0.9vw 0.9vw 1px #222;
+    }
+    
+    &>.content>.right-content .shadow-text {
+        text-shadow: -0.9vw 0.9vw 1px #222;
     }
 
 `;

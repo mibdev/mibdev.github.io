@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
+
+import poly from '../../assets/poly.svg';
 
 import caio from '../../members/caio';
 import samuel from '../../members/samuel';
@@ -14,9 +17,12 @@ export default function About({ location }) {
         if (location) {
             const path = location.pathname.toLowerCase();
             if (path.includes("samuel")) {
-                setMember(caio);
+                setMember(samuel);
             }
             else if (path.includes("bruno")) {
+                setMember(bruno);
+            }
+            else if (path.includes("caio")) {
                 setMember(caio);
             }
             else {
@@ -28,6 +34,11 @@ export default function About({ location }) {
 
     return (
         <Container>
+            <div className="header">
+                <Link className="return-button" to="/home">
+                    <img src={poly} alt="poly" />
+                </Link>
+            </div>
             <div className="content">
                 <div className="left-content">
                     <h2>Meet</h2>
@@ -43,7 +54,14 @@ export default function About({ location }) {
 
                 <div className="right-content">
                     <div className="mirrored-img">
-                        <img className="avatar" src={member.avatar} alt={member.name} />
+                        <a href={member.url} target="_blank" rel="noopener noreferrer">
+                            <img className="avatar" src={member.avatar} alt={member.name} />
+                        </a>
+                    </div>
+                    <h3 className="shadow-text">{member.role}</h3>
+                    <div className="citation-content">
+                        <hr className="shadow-box" />
+                        <h4 className="shadow-text">“{member.citation}”</h4>
                     </div>
                 </div>
             </div>

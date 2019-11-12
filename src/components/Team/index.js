@@ -9,7 +9,7 @@ export default function Team() {
         <Container>
             <ul>
                 <li>
-                    <Link className="content" to="/about">
+                    <Link className="content" to="/about/bruno">
                         <FadeIn>
                             <img src="/bruno.jpg" alt="Bruno" />
                             <h3>Bruno Silva</h3>
@@ -18,7 +18,7 @@ export default function Team() {
                 </li>
 
                 <li>
-                    <Link className="content" to="/about">
+                    <Link className="content" to="/about/caio">
                         <FadeIn className="tst">
                             <img src="/caio.jpg" alt="Caio" />
                             <h3>Caio Domingues</h3>
@@ -27,7 +27,7 @@ export default function Team() {
                 </li>
 
                 <li>
-                    <Link className="content" to="/about">
+                    <Link className="content" to="/about/samuel">
                         <FadeIn>
                             <img src="/samuel.jpg" alt="Samuel" />
                             <h3>Samuel Schultze</h3>

@@ -1,5 +1,6 @@
 export default {
-    avatar: "caio.jpg",
+    url: "https://github.com/caiodomingues",
+    avatar: "/caio.jpg",
     name: "Caio Domingues",
     role: "Hackatomic CEO",
     description: "Caio is passionate about Open Source world, feels like in a mission to help the world runs better.",
