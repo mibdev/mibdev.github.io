@@ -21,7 +21,7 @@ export default function Team() {
                     <Link className="content" to="/about/caio">
                         <FadeIn className="tst">
                             <img src="/caio.jpg" alt="Caio" />
-                            <h3>Caio Domingues</h3>
+                            <h3>Caio <br />Domingues</h3>
                         </FadeIn>
                     </Link>
                 </li>
@@ -30,7 +30,7 @@ export default function Team() {
                     <Link className="content" to="/about/samuel">
                         <FadeIn>
                             <img src="/samuel.jpg" alt="Samuel" />
-                            <h3>Samuel Schultze</h3>
+                            <h3>Samuel <br /> Schultze</h3>
                         </FadeIn>
                     </Link>
                 </li>
