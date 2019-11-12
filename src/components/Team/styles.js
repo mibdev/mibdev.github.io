@@ -56,7 +56,6 @@ export const Container = styled.div`
 
      &>ul>li>.content h3 {
         margin-top: 10px;
-        max-width: 50%;
         font-weight: 100;
         font-family: 'Fira Code', monospace;
         opacity: 80%;

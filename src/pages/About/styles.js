@@ -95,8 +95,6 @@ export const Container = styled.div`
         font-size: 1.5vw;
         letter-spacing: 1px;
         opacity: 80%;
-        
-        padding: 50px;
     }
 
     &>.content>.right-content>.mirrored-img {
@@ -143,6 +141,7 @@ export const Container = styled.div`
         
         align-items: center;
         justify-content: center;
+        opacity: 80%;
     }
 
     &>.content>.right-content>.citation-content>hr {
@@ -158,11 +157,11 @@ export const Container = styled.div`
     }
 
     &>.content>.right-content .shadow-box {
-        box-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.05);
+        box-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.1);
     }
     
     &>.content>.right-content .shadow-text {
-        text-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.05);
+        text-shadow: -0.9vw 0.9vw 1px rgba(255, 255, 255, 0.1);
     }
 
 `;

@@ -12,7 +12,7 @@ export default function Team() {
                     <Link className="content" to="/about/bruno">
                         <FadeIn>
                             <img src="/bruno.jpg" alt="Bruno" />
-                            <h3>Bruno Silva</h3>
+                            <h3>Bruno <br /> Silva</h3>
                         </FadeIn>
                     </Link>
                 </li>

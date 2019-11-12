@@ -92,7 +92,7 @@ export const Container = styled.div`
     .nav-item>.nav-link {
         font-size: 14px;
         width: 25%;
-        padding: 0.75rem 0;
+        padding: 0.75rem 0.50rem;
         opacity: 80%;
         
         font-weight: 200;
@@ -101,10 +101,11 @@ export const Container = styled.div`
 
         text-decoration: none;
         text-transform: uppercase;
-
+        
         &:hover {
-            text-decoration: underline;
+            border-bottom: 2px solid #fff;
+            opacity: 1;
+            transition: all .3s ease-out;
         }
     }
-
 `;
