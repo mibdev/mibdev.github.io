@@ -1,15 +1,33 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import { Container } from './styles';
 
 import Menu from './components/Menu';
-import Cards from './components/Cards';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Team from './pages/Team';
+import Contact from './pages/Contact';
 
 export default function App() {
     return (
         <Container>
-            <Menu />
-            <Cards />
+            <div className="wrapper">
+                <BrowserRouter>
+                    <Menu />
+                    <Switch>
+                        <Route path="/home" exact component={Home} />
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/team" component={Team} />
+                        <Route path="/contact" component={Contact} />
+
+                        <Redirect from="*" to="/home" />
+                    </Switch>
+                </BrowserRouter>
+            </div>
         </Container>
     );
 }

@@ -18,7 +18,7 @@ export const Container = styled.header`
     }
 
     &>h1>a {
-        color: rgba(0, 0, 0, 0.75);
+        color: rgba(255, 255, 255, 0.75);
         
         font-size: 2.5rem;
         letter-spacing: 4px;
@@ -29,7 +29,7 @@ export const Container = styled.header`
         transition: color 0.25s;
 
         &:hover {
-            color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.6);
         }
     }
 
@@ -43,7 +43,7 @@ export const Container = styled.header`
     }
 
     &>.nav-items>.nav-link {
-        color: rgba(0, 0, 0, 0.25);
+        color: rgba(255, 255, 255, 0.25);
 
         margin-left: 20px;
         font-size: 0.9rem;
@@ -58,13 +58,13 @@ export const Container = styled.header`
         transition: color 0.25s;
         
         &:hover {
-            color: rgba(0, 0, 0, 0.75);
+            color: rgba(255, 255, 255, 0.75);
         }
     }
     
     &>.nav-items>.active-nav-link {
-        color: rgba(0, 0, 0, 0.75);
+        color: rgba(255, 255, 255, 0.75);
     }
-}
+
 
 `;

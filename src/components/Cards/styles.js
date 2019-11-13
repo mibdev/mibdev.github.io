@@ -16,20 +16,21 @@ export const Container = styled.div`
         overflow: hidden;
 
         height: 250px;
+        max-width: 300px;
         flex: 1;
+        flex-shrink: 1;
         flex-basis: 300px;
 
         margin: 16px;
         
         background: #eee;
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
         z-index: 1;
 
         &:hover {
             &>img {
                 transform: scale(1.1);
-                filter: grayscale(0%) brightness(0.4) blur(5px);
+                filter: grayscale(0%) brightness(0.3) blur(5px);
             }
         }
     }
@@ -37,7 +38,6 @@ export const Container = styled.div`
     &>.card>img {
         position: absolute;
 
-        top: -25%;
         width: 100%;
         
         filter: grayscale(100%) brightness(0.5);
