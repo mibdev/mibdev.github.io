@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/mib-dev/static/js/main.b073e627.chunk.js",
-    "main.js.map": "/mib-dev/static/js/main.b073e627.chunk.js.map",
+    "main.js": "/mib-dev/static/js/main.ad9e2561.chunk.js",
+    "main.js.map": "/mib-dev/static/js/main.ad9e2561.chunk.js.map",
     "runtime-main.js": "/mib-dev/static/js/runtime-main.fa102533.js",
     "runtime-main.js.map": "/mib-dev/static/js/runtime-main.fa102533.js.map",
-    "static/js/2.c9d59c01.chunk.js": "/mib-dev/static/js/2.c9d59c01.chunk.js",
-    "static/js/2.c9d59c01.chunk.js.map": "/mib-dev/static/js/2.c9d59c01.chunk.js.map",
+    "static/js/2.a79fa3be.chunk.js": "/mib-dev/static/js/2.a79fa3be.chunk.js",
+    "static/js/2.a79fa3be.chunk.js.map": "/mib-dev/static/js/2.a79fa3be.chunk.js.map",
     "index.html": "/mib-dev/index.html",
-    "precache-manifest.a71864e6027644256a018fd7a3e17b9b.js": "/mib-dev/precache-manifest.a71864e6027644256a018fd7a3e17b9b.js",
+    "precache-manifest.22437f37cf007574c949942f3e334b23.js": "/mib-dev/precache-manifest.22437f37cf007574c949942f3e334b23.js",
     "service-worker.js": "/mib-dev/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.fa102533.js",
-    "static/js/2.c9d59c01.chunk.js",
-    "static/js/main.b073e627.chunk.js"
+    "static/js/2.a79fa3be.chunk.js",
+    "static/js/main.ad9e2561.chunk.js"
   ]
 }

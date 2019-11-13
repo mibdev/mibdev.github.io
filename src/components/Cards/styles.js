@@ -23,8 +23,6 @@ export const Container = styled.div`
 
         margin: 16px;
         
-        background: #eee;
-
         z-index: 1;
 
         &:hover {

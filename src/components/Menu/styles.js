@@ -18,18 +18,20 @@ export const Container = styled.header`
     }
 
     &>h1>a {
-        color: rgba(255, 255, 255, 0.75);
-        
         font-size: 2.5rem;
         letter-spacing: 4px;
 
         text-decoration: none;
         text-transform: uppercase;
         
-        transition: color 0.25s;
+        color: rgba(255, 255, 255, 0.75);
+        text-shadow: 0 0 0rem rgba(255, 255, 255, 1);
+
+        transition: all 0.25s ease-in-out;
 
         &:hover {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 1);
+            text-shadow: 0 0 2.5rem rgba(255, 255, 255, 1), 0 0 1rem rgba(255, 255, 255, 1);
         }
     }
 
