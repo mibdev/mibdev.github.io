@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.header`
 
     & {
-        margin-bottom: 60px; 
+        margin-bottom: 60px;
 
         display: flex;
         flex-direction: row;

@@ -10,7 +10,6 @@ export const Container = styled.div`
     &>.wrapper {
         max-width: 90vw;
         max-width: 1200px;
-        min-height: calc(100vh - 75px * 2 - 10px  * 2);
         
         padding: 5vw;
         margin: 0 auto;

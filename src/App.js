@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { Container } from './styles';
 
 import Menu from './components/Menu';
+import SkyBackground from './components/SkyBackground';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,6 +15,7 @@ import Contact from './pages/Contact';
 export default function App() {
     return (
         <Container>
+            <SkyBackground />
             <div className="wrapper">
                 <BrowserRouter>
                     <Menu />
