@@ -20,13 +20,13 @@ export default function App() {
                 <BrowserRouter>
                     <Menu />
                     <Switch>
-                        <Route path="/home" exact component={Home} />
+                        <Route path="/mib-dev" exact component={Home} />
                         <Route path="/about" component={About} />
                         <Route path="/projects" component={Projects} />
                         <Route path="/team" component={Team} />
                         <Route path="/contact" component={Contact} />
 
-                        <Redirect from="*" to="/home" />
+                        <Redirect from="*" to="/mib-dev" />
                     </Switch>
                 </BrowserRouter>
             </div>
