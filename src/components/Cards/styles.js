@@ -30,6 +30,14 @@ export const Container = styled.div`
                 transform: scale(1.1);
                 filter: grayscale(0%) brightness(0.3) blur(5px);
             }
+            &>.content>h1 {
+                opacity: 0;
+                top: 0%;
+            }
+            &>.content>p {
+                opacity: 1;
+                bottom: 50%;
+            }
         }
     }
 
@@ -53,17 +61,31 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
 
-        justify-content: space-between;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     &>.card>.content>h1 {
-        color: #fff;
+        position: absolute;
 
+        color: #fff;
         font-weight: 100;
+
+        top: 50%;
+        opacity: 1;
+
+        transition: all 0.3s ease-in-out;
     }
     
     &>.card>.content>p {
+        position: absolute;
+        
         color: #fff;
+
+        bottom: 0%;
+        opacity: 0;
+
+        transition: all 0.3s ease-in-out;
     }
 
 `;
