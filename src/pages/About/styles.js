@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
+import { FlexColumnCenter } from '../../styles/FlexColumnCenter';
+
 export const Container = styled.div`
 
     & {
 
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-        justify-content: center;
+        ${FlexColumnCenter}
 
         p {
             margin-top: 32px;

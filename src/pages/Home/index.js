@@ -8,7 +8,10 @@ export default function Home() {
     return (
         <Container>
             <AnimatedContent>
-                <h1>Home</h1>
+                <div className="flex-center">
+                    <h1>Home</h1>
+                    <h1>A bunch of friends trying to make cool things</h1>
+                </div>
             </AnimatedContent>
         </Container>
     );
