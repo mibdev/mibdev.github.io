@@ -10,7 +10,9 @@ export default function Home() {
             <div className="old-pc">
                 <img src={oldPC} alt="old-pc" />
             </div>
-            <h2>A bunch of <span>friends</span> trying to make cool things</h2>
+            <div className="animated-container">
+                <h1>A bunch of <span>friends</span> trying to make cool things</h1>
+            </div>
         </Container>
     );
 }

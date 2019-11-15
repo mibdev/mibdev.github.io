@@ -9,23 +9,26 @@ export const Container = styled.div`
         ${FlexColumnCenter}
     }
 
-    & h2 {
+    & .animated-container {
+        ${FlexColumnCenter}
+        ${AnimationSlideInFromBottom}
+        animation-delay: 0.3s;
+    }
+
+    & h1 {
         max-width: 80%;
         margin-top: 5vh;
 
         font-size: 5rem;
         font-family: 'Permanent Marker', cursive;
-
-        ${AnimationSlideInFromBottom}
-        animation-delay: 0.3s;
     }
 
-    & h2>span {
+    & h1>span {
         color: #000;
         background: #fff;
 
         padding: 0 1rem;
-
+ 
         font-size: 5rem;
         font-family: 'Permanent Marker', cursive;
     }
