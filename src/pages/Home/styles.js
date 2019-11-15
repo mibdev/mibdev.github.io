@@ -11,7 +11,7 @@ export const Container = styled.div`
 
     & h2 {
         max-width: 80%;
-        margin-top: 10vh;
+        margin-top: 5vh;
 
         font-size: 5rem;
         font-family: 'Permanent Marker', cursive;
@@ -33,7 +33,7 @@ export const Container = styled.div`
     & .old-pc {
         position: fixed;
 
-        bottom: 5vh;
+        top: 20vh;
         right: 15vw;
 
         ${AnimationSlideInFromBottom}
