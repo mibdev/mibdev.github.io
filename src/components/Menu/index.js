@@ -13,7 +13,7 @@ export default function Menu({ location }) {
                 <a className="logo" href="/">Mib</a>
             </h1>
             <div className="nav-items">
-                <NavLink className="nav-link" activeClassName="active-nav-link" to="/home">Home</NavLink>
+                <NavLink className="nav-link" activeClassName="active-nav-link" to="/mib-dev">Home</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/about">About</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/projects">Projects</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/team">Team</NavLink>

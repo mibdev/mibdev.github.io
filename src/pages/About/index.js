@@ -1,16 +1,12 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
-import { fadeIn } from 'react-animations';
 
 import { Container } from './styles';
-import AnimatedContent from '../../components/AnimatedContent';
 
 export default function About() {
     return (
         <Container>
-            <AnimatedContent animation={fadeIn} duration={1}>
-                <h1>About</h1>
-            </AnimatedContent>
+            <h1>About</h1>
             <FadeIn>
                 <p>
                     Have you ever tried to create your own thing? No? So don't, it will just give you headaches :D. Now I'll fill this with a lot of lorem ipsum :D

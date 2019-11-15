@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { AnimationSlideInFromBottom } from '../../styles/AnimationSlideInFromBottom';
 
 export const Container = styled.div`
 
@@ -8,6 +9,8 @@ export const Container = styled.div`
 
         align-items: center;
         justify-content: center;
+
+        ${AnimationSlideInFromBottom}
     }
 
 `;
