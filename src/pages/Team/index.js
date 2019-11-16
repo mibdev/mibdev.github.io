@@ -8,6 +8,9 @@ import CardList from '../../components/CardList';
 export default function Team() {
     return (
         <Container>
+            <div className="animated-container">
+                <h1>The <span>guys</span></h1>
+            </div>
             <CardList>
                 <Card image={`${process.env.PUBLIC_URL}/bruno.jpg`} title="Bruno Silva" description="Nothing to see." />
                 <Card image={`${process.env.PUBLIC_URL}/caio.jpg`} title="Caio Domingues" description="Caio is passionate about Open Source world, feels like in a mission to help the world runs better." />

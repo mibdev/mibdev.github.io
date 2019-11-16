@@ -13,8 +13,6 @@ export default function Projects() {
                 <Card image={`${process.env.PUBLIC_URL}/hackatomic.jpg`} title="Hackatomic" description="Conecte-se com pessoas ao redor do mundo e crie enquanto corre contra o tempo, conheça novas pessoas e divirta-se! E o melhor: é tudo de graça." />
                 <Card image={`${process.env.PUBLIC_URL}/hackatomic.jpg`} title="Hackatomic" description="Conecte-se com pessoas ao redor do mundo e crie enquanto corre contra o tempo, conheça novas pessoas e divirta-se! E o melhor: é tudo de graça." />
                 <Card image={`${process.env.PUBLIC_URL}/hackatomic.jpg`} title="Hackatomic" description="Conecte-se com pessoas ao redor do mundo e crie enquanto corre contra o tempo, conheça novas pessoas e divirta-se! E o melhor: é tudo de graça." />
-                <Card image={`${process.env.PUBLIC_URL}/hackatomic.jpg`} title="Hackatomic" description="Conecte-se com pessoas ao redor do mundo e crie enquanto corre contra o tempo, conheça novas pessoas e divirta-se! E o melhor: é tudo de graça." />
-                <Card image={`${process.env.PUBLIC_URL}/hackatomic.jpg`} title="Hackatomic" description="Conecte-se com pessoas ao redor do mundo e crie enquanto corre contra o tempo, conheça novas pessoas e divirta-se! E o melhor: é tudo de graça." />
             </CardList>
         </Container>
     );

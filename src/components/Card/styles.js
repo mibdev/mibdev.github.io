@@ -6,11 +6,11 @@ export const Container = styled.div`
         position: relative;
         overflow: hidden;
 
-        height: 275px;
-        max-width: 300px;
+        height: 225px;
+        max-width: 250px;
         flex: 1;
         flex-shrink: 1;
-        flex-basis: 300px;
+        flex-basis: 250px;
 
         margin: 16px;
         
@@ -94,6 +94,7 @@ export const Container = styled.div`
     
     &>.content>.top>h1 {
         color: #fff;
+        font-size: 1.5rem;
         font-weight: 100;
         margin-bottom: 16px;
     }
