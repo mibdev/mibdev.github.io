@@ -6,11 +6,11 @@ import { Container } from './styles';
 export default function About() {
     return (
         <Container>
-            <div className="vertical-content">
-                <h1>Sobre</h1>
-            </div>
-            <div className="content-out">
-                <div className="content-in">
+            <div className="row">
+                <div className="vertical-content">
+                    <h1>Sobre</h1>
+                </div>
+                <div className="content">
                     <FadeIn>
                         <p>
                             O Made in Brazil Development Group, mais conhecido como MiB, foi criado no final de 2014, na junção dos nossos co-fundadores Caio Domingues, Tiago Galdeano e Samuel Schultze.

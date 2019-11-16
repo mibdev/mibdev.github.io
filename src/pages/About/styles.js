@@ -6,6 +6,8 @@ import { AnimationSlideInFromBottom } from '../../styles/AnimationSlideInFromBot
 export const Container = styled.div`
 
     & {
+        width: 100%;
+
         ${FlexColumnCenter}
 
         p {
@@ -15,26 +17,24 @@ export const Container = styled.div`
         }
     }
 
-    & .content-out {
+    &>.row {
         width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: flex-end;
     }
 
-    & .content-in {
-        position: absolute;
-        
-        top: 25vh;
-        left: calc(25vw + 5rem);
-
-        width: 50%;
-        max-width: 800px;
+    &>.row>.content {
+        width: 70%;
     }
 
-    & .vertical-content {
+    &>.row>.vertical-content {
         position: fixed;
-        
-        top: 25vh;
-        left: 25vw;
-        bottom: -25vh;
+
+        height: 100%;
+        left: calc(50% - 600px + 15rem);
 
         ${FlexColumnCenter}
         justify-content: flex-start;
@@ -43,7 +43,7 @@ export const Container = styled.div`
 
         background: #fff;
 
-        & h1 {
+        &>h1 {
             color: #000;
             font-weight: 900;
             margin-top: 4rem;
