@@ -3,7 +3,7 @@ import { css } from 'styled-components';
 export const AnimationSlideInFromBottom = css`
     
     opacity: 0;
-    animation: 0.75s ease-in-out forwards ${({ delay }) => delay ? `${delay}s` : `0s`} 1 slideInFromBottom;
+    animation: 0.5s ease-in-out forwards 0s 1 slideInFromBottom;
     
     @keyframes slideInFromBottom {
         0% {

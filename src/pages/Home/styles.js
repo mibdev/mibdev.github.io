@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { FlexColumnCenter } from '../../styles/FlexColumnCenter';
+import { AnimationGrayscaleOut } from '../../styles/AnimationGrayscaleOut';
 import { AnimationSlideInFromBottom } from '../../styles/AnimationSlideInFromBottom';
 
 export const Container = styled.div`
@@ -46,5 +47,8 @@ export const Container = styled.div`
 
     & .old-pc>img {
         max-width: 40vw;
+
+        ${AnimationGrayscaleOut}
+        animation-delay: 1s;
     }
 `;
