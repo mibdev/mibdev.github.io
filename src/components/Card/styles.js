@@ -3,19 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
     & {
-        display: flex;
-        flex-direction: row;
-
-        flex-wrap: wrap;
-        justify-content: center;
-        z-index: 0;
-    }
-
-    &>.card {
         position: relative;
         overflow: hidden;
 
-        height: 250px;
+        height: 275px;
         max-width: 300px;
         flex: 1;
         flex-shrink: 1;
@@ -30,21 +21,24 @@ export const Container = styled.div`
                 transform: scale(1.1);
                 filter: grayscale(0%) brightness(0.3) blur(5px);
             }
-            &>.content>h1 {
+            &>.content>.top {
                 opacity: 0;
-                top: 0%;
+                top: -75%;
             }
-            &>.content>p {
+            &>.content>.bottom {
+                top: -5%;
                 opacity: 1;
-                bottom: 50%;
             }
         }
     }
 
-    &>.card>img {
+    &>img {
         position: absolute;
-
+        
         width: 100%;
+        height: 100%;
+
+        object-fit: cover;
         
         filter: grayscale(100%) brightness(0.5);
         transition: all 0.3s ease-in-out;
@@ -52,7 +46,7 @@ export const Container = styled.div`
         z-index: -1;
     }
 
-    &>.card>.content {
+    &>.content {
         width: calc(100% - 32px);
         height: calc(100% - 32px);
 
@@ -64,27 +58,49 @@ export const Container = styled.div`
         align-items: center;
     }
 
-    &>.card>.content>h1 {
+    &>.content>.top {
         position: absolute;
 
-        color: #fff;
-        font-weight: 100;
-
-        top: 50%;
+        top: 0;
         opacity: 1;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: flex-end;
+
+        transition: all 0.3s ease-in-out;
+    }
+
+    &>.content>.bottom {
+        position: absolute;
+
+        top: 45%;
+        opacity: 0;
+        height: 100%;
+
+        padding: 16px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
 
         transition: all 0.3s ease-in-out;
     }
     
-    &>.card>.content>p {
-        position: absolute;
-        
+    &>.content>.top>h1 {
         color: #fff;
-
-        bottom: 0%;
-        opacity: 0;
-
-        transition: all 0.3s ease-in-out;
+        font-weight: 100;
+        margin-bottom: 16px;
+    }
+    
+    &>.content>.bottom>p {
+        color: #fff;
+        text-align: center;
     }
 
 `;

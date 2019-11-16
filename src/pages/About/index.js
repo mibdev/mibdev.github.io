@@ -7,23 +7,26 @@ export default function About() {
     return (
         <Container>
             <div className="vertical-content">
-                <h1>About</h1>
+                <h1>Sobre</h1>
             </div>
             <div className="content-out">
                 <div className="content-in">
                     <FadeIn>
                         <p>
-                            Have you ever tried to create your own thing? No? So don't, it will just give you headaches :D. Now I'll fill this with a lot of lorem ipsum :D
-                    </p>
+                            O Made in Brazil Development Group, mais conhecido como MiB, foi criado no final de 2014, na junção dos nossos co-fundadores Caio Domingues, Tiago Galdeano e Samuel Schultze.
+                        </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mattis justo, eu mollis nulla. Mauris sit amet massa vitae mauris molestie euismod. Curabitur at nisl et felis lacinia venenatis
-                    </p>
+                            Nos unimos por uma paixão em comum: jogos. O MiB nasceu como uma desenvolvedora independente de jogos e lançou seu primeiro jogo, o Sonar, que ficou disponível para Android.
+                        </p>
                         <p>
-                            Mauris iaculis justo id volutpat cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus lobortis tortor felis, sit amet viverra erat imperdiet non. Praesent ut odio eleifend, finibus elit nec, suscipit od
-                    </p>
+                            Com a entrada de um novo integrante, Bruno Silva, o MiB fortaleceu ainda mais suas bases de desenvolvimento em jogos, principalmente em Unity3D. Bruno e Samuel já foram responsáveis por plugins e extensões de grande uso e relevância dentro da comunidade da Unity3D.
+                        </p>
                         <p>
-                            Cras accumsan velit ante, a sodales leo pellentesque a. Donec pellentesque maximus diam id condimentum. Nulla bibendum rhoncus sem, vel dignissim augue tincidunt sit amet. Morbi ac ipsum rutrum, suscipit ante sit amet, aliquet justo.
-                </p>
+                            Atualmente, o MiB expande constantemente suas áreas de desenvolvimento, passando tanto no desenvolvimento de web apps a utilitários e jogos, possuindo ainda, conhecimento em setores que possam se conectar à computação, seja agrícola, industrial, comercial ou residencial.
+                        </p>
+                        <p>
+                            Que tal dar uma chance para a gente te mostrar que nós podemos superar as suas expectativas? =]
+                        </p>
                     </FadeIn>
                 </div>
             </div>

@@ -5,8 +5,6 @@ import { Container } from './styles';
 
 export default function Menu({ location }) {
 
-    console.log(location);
-
     return (
         <Container>
             <h1>
