@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.a`
 
     & {
         position: relative;
@@ -19,7 +19,7 @@ export const Container = styled.div`
         &:hover {
             &>img {
                 transform: scale(1.1);
-                filter: grayscale(0%) brightness(0.3) blur(5px);
+                filter: brightness(0.3) blur(5px);
             }
             &>.content>.top {
                 opacity: 0;
@@ -40,7 +40,7 @@ export const Container = styled.div`
 
         object-fit: cover;
         
-        filter: grayscale(100%) brightness(0.5);
+        filter: brightness(0.5);
         transition: all 0.3s ease-in-out;
 
         z-index: -1;
@@ -93,10 +93,13 @@ export const Container = styled.div`
     }
     
     &>.content>.top>h1 {
+        margin-bottom: 16px;
+        
         color: #fff;
+        text-align: center;
+
         font-size: 1.5rem;
         font-weight: 100;
-        margin-bottom: 16px;
     }
     
     &>.content>.bottom>p {

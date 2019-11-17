@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Container } from './styles';
 
-export default function Card({ image, title, description }) {
+export default function Card({ image, title, description, link }) {
     return (
-        <Container>
+        <Container href={link} target="_blank" rel="noopener noreferrer">
             <img src={image} alt="card-background" />
             <div className="content">
                 <div className="top">
