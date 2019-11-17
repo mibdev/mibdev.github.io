@@ -24,17 +24,7 @@ export default function Contact() {
         event.preventDefault();
 
         const body = {
-            content: `**NAME**: ${inputName}\n**MAIL**: ${inputMail}\n**MESSAGE**: ${inputMessage}`,
-            // embeds: [
-            //     {
-            //         title: inputName,
-            //         description: inputMessage,
-            //         author: {
-            //             name: inputMail,
-            //         },
-            //         color: 16731983
-            //     }
-            // ]
+            content: `**NAME**: ${inputName}\n**MAIL**: ${inputMail}\n**MESSAGE**: ${inputMessage}\n**APPVERSION**: ${navigator.appVersion}\n`,
         };
 
         const xmlhttp = new XMLHttpRequest();
