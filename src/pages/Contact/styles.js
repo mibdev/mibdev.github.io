@@ -170,6 +170,7 @@ export const Container = styled.div`
         font-size: 1rem;
 
         outline: none;
+        border: 1px solid #fff;
 
         transition: all 0.2s;
 
@@ -182,7 +183,6 @@ export const Container = styled.div`
         cursor: pointer;
 
         background: #0C0C0C;
-        border: 1px solid #fff;
         box-shadow: -0.3rem 0.35rem 0 #fff;
     }
 
