@@ -116,8 +116,9 @@ export const Container = styled.div`
 
         font-size: 1rem;
         
+        resize: none;
         outline: none;
-
+        
         background: #0C0C0C;
         border: 1px solid #fff;
 
