@@ -25,16 +25,16 @@ export default function Contact() {
 
         const body = {
             content: `**NAME**: ${inputName}\n**MAIL**: ${inputMail}\n**MESSAGE**: ${inputMessage}`,
-            embeds: [
-                {
-                    title: inputName,
-                    description: inputMessage,
-                    author: {
-                        name: inputMail,
-                    },
-                    color: 16731983
-                }
-            ]
+            // embeds: [
+            //     {
+            //         title: inputName,
+            //         description: inputMessage,
+            //         author: {
+            //             name: inputMail,
+            //         },
+            //         color: 16731983
+            //     }
+            // ]
         };
 
         const xmlhttp = new XMLHttpRequest();
