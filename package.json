@@ -2,7 +2,7 @@
   "name": "mib-dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mibdev.github.io/mib-dev/",
+  "homepage": "https://mibdev.github.io/",
   "scripts": {
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
