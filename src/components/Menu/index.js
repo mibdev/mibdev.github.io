@@ -11,7 +11,7 @@ export default function Menu({ location }) {
                 <a className="logo" href="/">Mib</a>
             </h1>
             <div className="nav-items">
-                <NavLink className="nav-link" activeClassName="active-nav-link" to="/mib-dev">Início</NavLink>
+                <NavLink className="nav-link" activeClassName="active-nav-link" to="/">Início</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/about">Sobre</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/projects">Projetos</NavLink>
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/team">Time</NavLink>
