@@ -1,3 +1,3 @@
-# [mibdev.github.io/mib-dev](https://mibdev.github.io/mib-dev/) [![Build Status](https://travis-ci.com/mibdev/mib-dev.svg?branch=master)](https://travis-ci.com/mibdev/mib-dev)
+# [mibdev.github.io](https://mibdev.github.io/) [![Build Status](https://travis-ci.com/mibdev/mibdev.github.io.svg?branch=source)](https://travis-ci.com/mibdev/mibdev.github.io)
 
 MiB Dev Website
