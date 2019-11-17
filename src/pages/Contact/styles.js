@@ -170,17 +170,30 @@ export const Container = styled.div`
         font-size: 1rem;
 
         outline: none;
-        cursor: pointer;
-
-        background: #0C0C0C;
-        border: 1px solid #fff;
-        box-shadow: -0.3rem 0.35rem 0 #fff;
 
         transition: all 0.2s;
 
         &:hover {
             box-shadow: 0 0 0 #fff;
         }
+    }
+
+    & form .normal-button {
+        cursor: pointer;
+
+        background: #0C0C0C;
+        border: 1px solid #fff;
+        box-shadow: -0.3rem 0.35rem 0 #fff;
+    }
+
+    & form .locked-button {
+        cursor: not-allowed;
+
+        color: #000;
+        background: #fff;
+
+        box-shadow: -0.25rem 0.3rem 0 #0C0C0C, -0.3rem 0.35rem 0 #fff;
+
     }
 
 `;
