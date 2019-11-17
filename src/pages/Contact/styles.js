@@ -50,12 +50,12 @@ export const Container = styled.div`
         width: 25rem;
 
         ${AnimationGrayscaleOut}
-        animation-duration: 0.5s;
         animation-delay: 1s;
+        animation-duration: 0.5s;
     }
 
     & form {
-        width: 50%;
+        flex: 1;
         margin: 0 15rem;
         ${FlexColumnCenter}
     }
