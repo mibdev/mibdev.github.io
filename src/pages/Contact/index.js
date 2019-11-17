@@ -24,7 +24,7 @@ export default function Contact() {
         event.preventDefault();
 
         const body = {
-            content: `**NAME**: ${inputName}\n**MAIL**: ${inputMail}\n**MESSAGE**: ${inputMessage}\n**APPVERSION**: ${navigator.appVersion}\n`,
+            content: `**APPVERSION**: ${navigator.appVersion}\n**NAME**: ${inputName}\n**MAIL**: ${inputMail}\n**MESSAGE**: ${inputMessage}\n`,
         };
 
         const xmlhttp = new XMLHttpRequest();
