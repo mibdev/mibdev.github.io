@@ -56,7 +56,7 @@ export const Container = styled.div`
 
     & form {
         flex: 1;
-        margin: 0 15rem;
+        margin: 0 10rem;
         ${FlexColumnCenter}
     }
 
@@ -100,6 +100,28 @@ export const Container = styled.div`
         }
     }
     
+    & form input:not([value=""]):not(:focus):invalid {
+        border-color: #ff4444;
+
+        box-shadow: -0.3rem 0.35rem 0 #ff4444;
+
+
+        animation: shake_error 0.4s 1 linear;
+
+        &:hover {
+            box-shadow: 0 0 0 #ff4444;
+        }
+    }
+
+    @keyframes shake_error {
+        0% { transform: translateX(3rem); }
+        20% { transform: translateX(-3rem); }
+        40% { transform: translateX(1.5rem); }
+        60% { transform: translateX(-1.5rem); }
+        80% { transform: translateX(0.75rem); }
+        100% { transform: translateX(0); }
+    }
+
     & form .textarea-container {
         position: relative;
 

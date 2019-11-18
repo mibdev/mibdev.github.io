@@ -63,6 +63,7 @@ export default function Contact() {
                         <input
                             required
                             type="text"
+                            pattern="[a-zA-Z]*"
                             value={inputName}
                             onChange={handleNameChange}
                             disabled={lockButton}
