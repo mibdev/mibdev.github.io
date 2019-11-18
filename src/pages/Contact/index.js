@@ -59,7 +59,7 @@ export default function Contact() {
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className="textbox">
-                        <label for="name">Nome</label>
+                        <label htmlFor="name">Nome</label>
                         <input
                             required
                             type="text"
@@ -71,7 +71,7 @@ export default function Contact() {
                     </div>
 
                     <div className="textbox">
-                        <label for="mail">E-mail</label>
+                        <label htmlFor="mail">E-mail</label>
                         <input
                             required
                             type="email"
@@ -82,11 +82,11 @@ export default function Contact() {
                     </div>
 
                     <div className="textbox">
-                        <label for="msg">Mensagem</label>
+                        <label htmlFor="msg">Mensagem</label>
                         <div className="textarea-container">
                             <textarea
                                 required
-                                maxlength={1500}
+                                maxLength={1500}
                                 value={inputMessage}
                                 onChange={handleMessageChange}
                                 disabled={lockButton}
