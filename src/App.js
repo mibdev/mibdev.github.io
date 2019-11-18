@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 import { Container } from './styles';
 
+import MemberModal from './components/MemberModal';
 import Menu from './components/Menu';
 import SkyBackground from './components/SkyBackground';
 
@@ -30,6 +31,7 @@ export default function App() {
                     </Switch>
                 </BrowserRouter>
             </div>
+            {/* <MemberModal /> */}
         </Container>
     );
 }
