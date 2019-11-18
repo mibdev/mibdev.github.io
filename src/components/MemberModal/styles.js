@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { FlexRowCenter } from '../../styles/FlexRowCenter';
+// import { FlexRowCenter } from '../../styles/FlexRowCenter';
 import { FlexColumnCenter } from '../../styles/FlexColumnCenter';
 
 export const Container = styled.div`
