@@ -22,10 +22,10 @@ export default function App() {
                     <Menu />
                     <Switch>
                         <Route path="/" exact component={Home} />
-                        <Route path="/?p=/about" component={About} />
-                        <Route path="/?p=/projects" component={Projects} />
-                        <Route path="/?p=/team" component={Team} />
-                        <Route path="/?p=/contact" component={Contact} />
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/team" component={Team} />
+                        <Route path="/contact" component={Contact} />
 
                         <Redirect from="*" to="/" />
                     </Switch>
