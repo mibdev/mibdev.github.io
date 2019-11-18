@@ -7,7 +7,21 @@ export default function Contact() {
     const [inputName, setInputName] = useState("");
     const [inputMail, setInputMail] = useState("");
     const [inputMessage, setInputMessage] = useState("");
+    const [messageMaxLength, setMessageMaxLength] = useState(1500);
     const [lockButton, setLockButton] = useState(false);
+
+    function updateMessageMaxLength() {
+        if (inputName.length + inputMail.length > 400) {
+            setMessageMaxLength(1500 - (inputName.length + inputMail.length));
+        }
+        else {
+            setMessageMaxLength(1500);
+        }
+    }
+
+    function handleKeyDown(event) {
+        updateMessageMaxLength();
+    }
 
     function handleNameChange(event) {
         setInputName(event.target.value);
@@ -65,6 +79,7 @@ export default function Contact() {
                             type="text"
                             pattern="[a-zA-Z\s]+"
                             value={inputName}
+                            onKeyDown={handleKeyDown}
                             onChange={handleNameChange}
                             disabled={lockButton}
                         />
@@ -76,6 +91,7 @@ export default function Contact() {
                             required
                             type="email"
                             value={inputMail}
+                            onKeyDown={handleKeyDown}
                             onChange={handleMailChange}
                             disabled={lockButton}
                         />
@@ -86,12 +102,12 @@ export default function Contact() {
                         <div className="textarea-container">
                             <textarea
                                 required
-                                maxLength={1500}
+                                maxLength={messageMaxLength}
                                 value={inputMessage}
                                 onChange={handleMessageChange}
                                 disabled={lockButton}
                             />
-                            <span className="char-counter">{`${inputMessage.length} - 1500`}</span>
+                            <span className="char-counter">{`${inputMessage.length} - ${messageMaxLength}`}</span>
                         </div>
                     </div>
 
