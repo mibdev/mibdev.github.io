@@ -20,13 +20,13 @@ export default function SocialBar() {
                 network="github" bgColor="#fff" fgColor="#0C0C0C"
                 url="https://github.com/mibdev"
             />
-            <SocialIcon
+            {/* <SocialIcon
                 className="social-icon"
                 target="_blank"
                 rel="noopener noreferrer"
                 network="discord" bgColor="#fff" fgColor="#0C0C0C"
                 url="https://discord.com/mibdev"
-            />
+            /> */}
         </Container>
     );
 }
