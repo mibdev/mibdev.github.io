@@ -7,6 +7,8 @@ import { AnimationSlideInFromBottom } from '../../styles/AnimationSlideInFromBot
 export const Container = styled.div`
 
     & {
+        width: 100%;
+
         display: flex;
         flex-direction: column;
 
@@ -23,7 +25,7 @@ export const Container = styled.div`
         flex-direction: row;
     }
 
-    & .right-content>.animated-container {
+    & .left-content>.animated-container {
         margin-bottom: 1rem;
 
         ${AnimationSlideInFromBottom}
@@ -46,7 +48,7 @@ export const Container = styled.div`
         }
     }
     
-    & .right-content>img {
+    & .left-content>img {
         width: 25rem;
 
         ${AnimationGrayscaleOut}
@@ -54,9 +56,13 @@ export const Container = styled.div`
         animation-duration: 0.5s;
     }
 
+    & .column {
+        width: 100%;
+        ${FlexColumnCenter}
+    }
+
     & form {
-        flex: 1;
-        margin: 0 10rem;
+        width: 50%;
         ${FlexColumnCenter}
     }
 
