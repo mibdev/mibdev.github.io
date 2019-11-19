@@ -12,6 +12,12 @@ export const Container = styled.div`
 
     &>.social-icon {
         margin: 0 0.25rem;
+
+        transition: all 0.2s;
+
+        &:hover {
+            transform: translateY(-0.5rem);
+        }
     }
     
 `;
