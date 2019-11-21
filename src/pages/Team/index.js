@@ -9,7 +9,7 @@ export default function Team() {
     return (
         <Container>
             <div className="animated-container">
-                <h1>The <span>guys</span></h1>
+                <h1>The <span>team</span></h1>
             </div>
             <CardList>
                 <Card
