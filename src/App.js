@@ -16,14 +16,7 @@ import Team from './pages/Team';
 import Contact from './pages/Contact';
 
 const history = createBrowserHistory();
-
-ReactGA.initialize('UA-153123707-1');
-
-// Initialize google analytics page view tracking
-history.listen(location => {
-    ReactGA.set({ page: location.pathname }); // Update the user's current page
-    ReactGA.pageview(location.pathname); // Record a pageview for the given page
-
+const updatePageTitle = () => { 
     const titles = {
         "/": "MiB Development Group",
         "/about": "Sobre · MiB Development Group",
@@ -31,7 +24,17 @@ history.listen(location => {
         "/team": "Time · MiB Development Group",
         "/contact": "Contato · MiB Development Group",
     }
-    document.title = titles[location.pathname] || titles["/"];
+    document.title = titles[history.location.pathname] || titles["/"];
+};
+
+ReactGA.initialize('UA-153123707-1');
+updatePageTitle();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+    updatePageTitle();
 });
 
 export default function App() {
