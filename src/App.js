@@ -27,7 +27,13 @@ const updatePageTitle = () => {
     document.title = titles[history.location.pathname] || titles["/"];
 };
 
-ReactGA.initialize('UA-153123707-1');
+ReactGA.initialize('UA-153123707-1', {
+    titleCase: false,
+    gaOptions: {
+        siteSpeedSampleRate: 100,
+    }
+});
+
 updatePageTitle();
 
 // Initialize google analytics page view tracking
