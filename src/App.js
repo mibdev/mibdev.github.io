@@ -26,10 +26,10 @@ history.listen(location => {
 
     const titles = {
         "/": "MiB Development Group",
-        "/about": "Sobre - MiB Development Group",
-        "/projects": "Projetos - MiB Development Group",
-        "/team": "Time - MiB Development Group",
-        "/contact": "Contato - MiB Development Group",
+        "/about": "Sobre · MiB Development Group",
+        "/projects": "Projetos · MiB Development Group",
+        "/team": "Time · MiB Development Group",
+        "/contact": "Contato · MiB Development Group",
     }
     document.title = titles[location.pathname] || titles["/"];
 });
