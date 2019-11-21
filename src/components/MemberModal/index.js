@@ -16,7 +16,7 @@ export default function MemberModal() {
                         <h2>Bruno é o cara que estuda de tudo. Fullstacker, entusiasta e é também um grande admirador do universo Open-Source.</h2>
                     </div>
                     <div className="right-content">
-                        <img className="avatar" src={`${process.env.PUBLIC_URL}/bruno.jpg`} alt="bruno" />
+                        <img className="avatar" src="https://github.com/BrunoS3D.png?size=250" alt="bruno" />
                         <h4>Developer</h4>
                         <h3>Bruno é o cara que estuda de tudo. Fullstacker, entusiasta e é também um grande admirador do universo Open-Source.</h3>
                     </div>

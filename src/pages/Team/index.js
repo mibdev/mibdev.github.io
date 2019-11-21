@@ -13,19 +13,19 @@ export default function Team() {
             </div>
             <CardList>
                 <Card
-                    image={`${process.env.PUBLIC_URL}/bruno.jpg`}
+                    image="https://github.com/BrunoS3D.png?size=250"
                     link="https://github.com/BrunoS3D"
                     title="Bruno Silva"
                     description="Bruno é o cara que estuda de tudo. Fullstacker, entusiasta e é também um grande admirador do universo Open-Source."
                 />
                 <Card
-                    image={`${process.env.PUBLIC_URL}/caio.jpg`}
+                    image="https://github.com/caiodomingues.png?size=250"
                     link="https://github.com/caiodomingues"
                     title="Caio Domingues"
                     description="Caio é um apaixonado pelo mundo Open-Source, sente que toda colaboração do tipo pode tornar o mundo um lugar melhor."
                 />
                 <Card
-                    image={`${process.env.PUBLIC_URL}/samuel.jpg`}
+                    image="https://github.com/mukaschultze.png?size=250"
                     link="https://github.com/mukaschultze"
                     title="Samuel Schultze"
                     description="Samu é um cara mal sinto que se eu escrever algo 'bonitinho' aqui ele não irá gostar."
