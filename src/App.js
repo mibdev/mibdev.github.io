@@ -23,6 +23,15 @@ ReactGA.initialize('UA-153123707-1');
 history.listen(location => {
     ReactGA.set({ page: location.pathname }); // Update the user's current page
     ReactGA.pageview(location.pathname); // Record a pageview for the given page
+
+    const titles = {
+        "/": "MiB Development Group",
+        "/about": "Sobre - MiB Development Group",
+        "/projects": "Projetos - MiB Development Group",
+        "/team": "Time - MiB Development Group",
+        "/contact": "Contato - MiB Development Group",
+    }
+    document.title = titles[location.pathname] || titles["/"];
 });
 
 export default function App() {
