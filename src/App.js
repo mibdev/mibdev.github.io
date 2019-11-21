@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { Router, Switch, Route, Redirect } from 'react-router-dom';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from "history";
 
 import { Container } from './styles';
 
@@ -13,12 +15,22 @@ import Projects from './pages/Projects';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 
+const history = createBrowserHistory();
+
+ReactGA.initialize('UA-153123707-1');
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
 export default function App() {
     return (
         <Container>
             <SkyBackground />
             <div className="wrapper">
-                <BrowserRouter>
+                <Router history={history}>
                     <Menu />
                     <Switch>
                         <Route path="/" exact component={Home} />
@@ -29,7 +41,7 @@ export default function App() {
 
                         <Redirect from="*" to="/" />
                     </Switch>
-                </BrowserRouter>
+                </Router>
             </div>
             {/* <MemberModal /> */}
         </Container>
