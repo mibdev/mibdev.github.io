@@ -17,7 +17,12 @@ import Contact from './pages/Contact';
 
 const history = createBrowserHistory();
 
-ReactGA.initialize('UA-153123707-1');
+ReactGA.initialize('UA-153123707-1', {
+    titleCase: false,
+    gaOptions: {
+        siteSpeedSampleRate: 100,
+    }
+});
 
 trackPageView(history.location);
 updatePageTitle(history.location);
@@ -42,22 +47,6 @@ function updatePageTitle(location) {
     }
     document.title = titles[location.pathname] || titles["/"];
 };
-
-ReactGA.initialize('UA-153123707-1', {
-    titleCase: false,
-    gaOptions: {
-        siteSpeedSampleRate: 100,
-    }
-});
-
-updatePageTitle();
-
-// Initialize google analytics page view tracking
-history.listen(location => {
-    ReactGA.set({ page: location.pathname }); // Update the user's current page
-    ReactGA.pageview(location.pathname); // Record a pageview for the given page
-    updatePageTitle();
-});
 
 export default function App() {
     return (
