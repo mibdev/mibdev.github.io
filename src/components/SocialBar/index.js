@@ -1,53 +1,21 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 import { Container } from './styles';
 
 export default function SocialBar() {
     return (
         <Container>
-            <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="github" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://github.com/mibdev"
-            />
-            <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="facebook" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://www.facebook.com/mibgamedev"
-            />
-            <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="github" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://github.com/mibdev"
-            />
-            <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="facebook" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://www.facebook.com/mibgamedev"
-            />
-            <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="github" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://github.com/mibdev"
-            />
-            {/* <SocialIcon
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-                network="discord" bgColor="#fff" fgColor="#0C0C0C"
-                url="https://discord.com/mibdev"
-            /> */}
+            <a className="social-icon" href="https://www.facebook.com/mibgamedev" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faFacebookF} size="lg" />
+            </a>
+            <a className="social-icon" href="https://github.com/mibdev" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} size="lg" />
+            </a>
+            <a className="social-icon" href="https://discordapp.com/invite/m3q75kU" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faDiscord} size="lg" />
+            </a>
         </Container>
     );
 }
