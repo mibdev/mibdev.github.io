@@ -28,7 +28,7 @@ export default function Team() {
                     image="https://github.com/mukaschultze.png?size=250"
                     link="https://github.com/mukaschultze"
                     title="Samuel Schultze"
-                    description="Samuel é do mal, sinto que se eu fosse escrever algo \"bonitinho\" aqui ele não gostaria."
+                    description="Samuel é do mal, sinto que se eu fosse escrever algo 'bonitinho' aqui ele não gostaria."
                 />
             </CardList>
         </Container>
