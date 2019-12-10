@@ -9,7 +9,7 @@ export default function About() {
         <Container>
             <div className="row">
                 <div className="vertical-content">
-                    <T.text text="about.title"/>
+                    <h1><T.text text="about.title" /></h1>
                 </div>
                 <div className="content">
                     <FadeIn>
