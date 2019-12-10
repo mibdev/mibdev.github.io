@@ -15,6 +15,10 @@ import Projects from './pages/Projects';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 
+import { i18nInit } from './i18n';
+
+i18nInit();
+
 const history = createBrowserHistory();
 
 ReactGA.initialize('UA-153123707-1', {
