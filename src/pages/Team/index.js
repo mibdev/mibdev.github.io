@@ -30,6 +30,12 @@ export default function Team() {
                     title="Samuel Schultze"
                     description="Samuel é do mal, sinto que se eu fosse escrever algo 'bonitinho' aqui ele não gostaria."
                 />
+                 <Card
+                    image="https://media-exp1.licdn.com/dms/image/C4D03AQErvbKQA2R0ug/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=Qd22IK65i0_DxGjpumKsDQPJAP38h9vXEdfvQtR9v0o"
+                    link="https://www.linkedin.com/in/tiagogaldeano/"
+                    title="Tiago Galdeano"
+                    description="Oi Tiago, será que você poderia me dizer qual frase eu deveria escrever aqui?"
+                />
             </CardList>
         </Container>
     );

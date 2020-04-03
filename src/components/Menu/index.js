@@ -8,7 +8,9 @@ export default function Menu() {
     return (
         <Container>
             <h1>
-                <a className="logo" href="/">Mib</a>
+                <a className="logo" href="/">
+                    <img src={`${process.env.PUBLIC_URL}/white-logo.svg`} width="64" alt="MiB Development Group White Logo" />
+                </a>
             </h1>
             <div className="nav-items">
                 <NavLink className="nav-link" activeClassName="active-nav-link" to="/" exact>Início</NavLink>
