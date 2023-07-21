@@ -25,13 +25,19 @@ export default function Team() {
                     description="Caio é apaixonado pela ideologia Open-Source, trabalha para que colaboração torne o mundo um lugar melhor."
                 />
                 <Card
+                    image="https://github.com/gabrieldejesus.png?size=250"
+                    link="https://github.com/gabrieldejesus"
+                    title="Gabriel de Jesus"
+                    description=""
+                />
+                <Card
                     image="https://github.com/mukaschultze.png?size=250"
                     link="https://github.com/mukaschultze"
                     title="Samuel Schultze"
                     description="Samuel é do mal, sinto que se eu fosse escrever algo 'bonitinho' aqui ele não gostaria."
                 />
                  <Card
-                    image="https://instagram.fstu6-1.fna.fbcdn.net/v/t51.2885-15/e35/90491112_142970467109439_7495886393016318936_n.jpg?_nc_ht=instagram.fstu6-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=0i_LLB5VfiUAX_wxldN&oh=55b02b61f44dee258f9ef467b0614f3e&oe=5EB184B2"
+                    image="https://media.licdn.com/dms/image/C4D03AQErvbKQA2R0ug/profile-displayphoto-shrink_400_400/0/1581970775395?e=1695254400&v=beta&t=ZISFS8yAuyD7xKpAGxkUaPAFAEfUuPiFWQ6hm0VB7sA"
                     link="https://www.linkedin.com/in/tiagogaldeano/"
                     title="Tiago Galdeano"
                     description="Oi Tiago, será que você poderia me dizer qual frase eu deveria escrever aqui?"
